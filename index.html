@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="hero-header">
+    
+    <div class="bg-cylinder-layer">
+      <div class="bg-cylinder-1"></div>
+      <div class="bg-cylinder-2"></div>
+    </div>
+
+    <nav class="top-navbar">
+      <div class="container d-flex align-items-center justify-content-between">
+        
+        <a href="#" class="nav-brand text-decoration-none" aria-label="Logo">
+          <div class="logo-circle">
+            <svg viewBox="0 0 24 24">
+              <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 14H4V4h16v12zm-9.3 1.25l-2.65-2.65 1.4-1.4 1.25 1.25 3.9-3.9 1.4 1.4-5.3 5.3z"/>
+            </svg>
+          </div>
+        </a>
+
+        <ul class="nav-menu d-flex list-unstyled m-0 gap-4 gap-lg-5">
+          <li class="nav-item">
+            <span class="nav-num">01.</span>
+            <a href="#" class="nav-link text-white fw-bold text-decoration-none">Home</a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-num">02.</span>
+            <a href="#" class="nav-link text-white fw-bold text-decoration-none">Clients</a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-num">03.</span>
+            <a href="#" class="nav-link text-white fw-bold text-decoration-none">Blog</a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-num">04.</span>
+            <a href="#" class="nav-link text-white fw-bold text-decoration-none">New Releases</a>
+          </li>
+        </ul>
+
+        <div class="nav-socials d-flex align-items-center gap-3">
+          <a href="#" class="social-link" aria-label="Facebook">
+            <svg viewBox="0 0 24 24">
+              <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95C18.05 21.45 22 17.19 22 12z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Twitter">
+            <svg viewBox="0 0 24 24">
+              <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.05c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+            </svg>
+          </a>
+          <a href="#" class="social-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="container hero-body position-relative z-2 my-auto">
+      <div class="d-flex align-items-center justify-content-between w-100 gap-2 gap-lg-3">
+        
+        <button class="slider-arrow arrow-prev" aria-label="Previous Slide">&larr;</button>
+
+        <div class="row align-items-center justify-content-between flex-grow-1 g-4 g-lg-5 mx-0">
+          
+          <div class="col-12 col-lg-6 hero-text-col text-center text-lg-start">
+            <span class="hero-tag d-inline-block text-uppercase fw-bold text-white mb-3">OUR PRODUCT</span>
+            <h1 class="hero-heading text-white fw-bold mb-3">Shoes for<br>everybody</h1>
+            <p class="hero-paragraph text-white opacity-90 mx-auto mx-lg-0 mb-4">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada.
+            </p>
+            <a href="#" class="btn-view-more text-decoration-none">View More</a>
+          </div>
+
+          <div class="col-12 col-lg-6 d-flex justify-content-center">
+            <div class="yellow-card">
+              <img src="images/hero-shoe.jpg" 
+                   alt="Maroon Sneaker on Yellow Background">
+            </div>
+          </div>
+
+        </div>
+
+        <button class="slider-arrow arrow-next" aria-label="Next Slide">&rarr;</button>
+
+      </div>
+    </div>
+
+  </header>
+
+  <section class="style-section py-5">
+    <div class="container py-lg-4">
+      
+      <div class="style-header mb-4 mb-lg-5">
+        <span class="style-subtitle text-uppercase fw-bold text-dark d-block mb-2">LOREM ANTE IOS</span>
+        <h2 class="style-title fw-bold text-dark">Choose your style</h2>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="style-card">
+            <div class="style-card-media">
+              <img src="images/shoes.jpg" 
+                   alt="Green Suede Shoe on Peach">
+            </div>
+            <h3 class="style-card-name fw-bold text-dark mt-3">shoes</h3>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="style-card">
+            <div class="style-card-media">
+              <img src="images/running-sneakers.jpg" 
+                   alt="Running Sneakers on White Box">
+            </div>
+            <h3 class="style-card-name fw-bold text-dark mt-3">running sneakers</h3>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="style-card">
+            <div class="style-card-media">
+              <img src="images/sneakers.jpg" 
+                   alt="Maroon Vans Sneaker on Yellow Background">
+            </div>
+            <h3 class="style-card-name fw-bold text-dark mt-3">sneakers</h3>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="stylish-section">
+    <div class="container-fluid p-0">
+      <div class="row g-0 align-items-stretch">
+        
+        <div class="col-12 col-lg-6 stylish-left d-flex flex-column justify-content-center">
+          <span class="stylish-number fw-bold text-white mb-2">01.</span>
+          <h2 class="stylish-title fw-bold text-white mb-3">stylish</h2>
+          <p class="stylish-desc text-white opacity-90 mb-4">
+            <strong class="fw-bold text-white">sport</strong> Ea viris munere intellegam pro, sanctus iudicabit persecuti. Habeo accusamus quo id, rebum epicurei intellegat.
+          </p>
+          <a href="#stylish" class="stylish-link text-white fw-bold text-decoration-none">
+            Read more<span class="arrow">&mdash;&gt;</span>
+          </a>
+        </div>
+
+        <div class="col-12 col-lg-6 stylish-right">
+          <img src="images/red-nike.jpg" 
+               alt="Red Nike Free Sport Shoe" 
+               loading="eager">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="logos-strip-section py-5 border-bottom">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gap-4">
+        
+        <div class="brand-item">
+          <div class="brand-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 6c1.66 0 3 1.34 3 3v2h1v4H8v-4h1V10c0-1.66 1.34-3 3-3zm0 2c-.55 0-1 .45-1 1v2h2V10c0-.55-.45-1-1-1z"/>
+            </svg>
+          </div>
+          <div class="brand-text">
+            <span class="brand-title">Digital</span>
+            <span class="brand-subtitle">Security</span>
+          </div>
+        </div>
+
+        <div class="brand-item">
+          <div class="brand-badge">
+            <span class="brand-title">COMPANY</span>
+            <div class="brand-badge-row">
+              <span>est.</span>
+              <svg viewBox="0 0 24 24">
+                <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+              </svg>
+              <span>2012</span>
+            </div>
+            <span class="brand-title">NAME</span>
+          </div>
+        </div>
+
+        <div class="brand-item">
+          <div class="brand-badge">
+            <div class="brand-icon" style="width: 38px; height: 28px; margin-bottom: 2px;">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H9v2H7v-2H5v-2h2V9h2v2h2v2zm4.5 2c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5S17.67 9 18.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/>
+              </svg>
+            </div>
+            <span class="brand-title">COMPANY</span>
+            <span class="brand-subtitle">NAME</span>
+          </div>
+        </div>
+
+        <div class="brand-item">
+          <div class="brand-badge">
+            <div class="brand-icon" style="width: 38px; height: 32px; margin-bottom: 2px;">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 14H4V4h16v12zm-9.3 1.25l-2.65-2.65 1.4-1.4 1.25 1.25 3.9-3.9 1.4 1.4-5.3 5.3z"/>
+              </svg>
+            </div>
+            <span class="brand-title">COMPANY</span>
+          </div>
+        </div>
+
+        <div class="brand-item">
+          <div class="brand-badge">
+            <span class="brand-title">COMPANY</span>
+            <div class="brand-badge-row">
+              <span>est.</span>
+              <svg viewBox="0 0 24 24">
+                <path d="M7 2v11h3v9l7-12h-4l4-8z"/>
+              </svg>
+              <span>2012</span>
+            </div>
+            <span class="brand-title">NAME</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="blog-posts-section py-5">
+    <div class="container py-lg-4">
+      
+      <div class="blog-posts-header mb-4 mb-lg-5">
+        <span class="blog-posts-subtitle text-uppercase fw-bold text-dark d-block mb-2">ABOUT THE BRAND</span>
+        <h2 class="blog-posts-title fw-bold text-dark">Our Blog</h2>
+      </div>
+
+      <div class="row g-4 g-lg-5">
+        
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="blog-item-card">
+            <div class="blog-item-media position-relative mb-3">
+              <div class="blog-item-imgbox">
+                <img src="images/hero-shoe.jpg" 
+                     alt="Maroon Shoe on Yellow Background">
+              </div>
+              <div class="blog-item-date">August 25, 2021</div>
+            </div>
+            <h3 class="blog-item-title fw-bold text-dark mb-2">Design Better</h3>
+            <p class="blog-item-desc text-secondary mb-3">
+              Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit.
+            </p>
+            <a href="#blog-1" class="blog-item-link fw-bold text-dark text-decoration-none">
+              Read more<span class="arrow">&mdash;&gt;</span>
+            </a>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="blog-item-card">
+            <div class="blog-item-media position-relative mb-3">
+              <div class="blog-item-imgbox">
+                <img src="images/running-sneakers.jpg" 
+                     alt="Modern Sneakers on Display">
+              </div>
+              <div class="blog-item-date">August 25, 2021</div>
+            </div>
+            <h3 class="blog-item-title fw-bold text-dark mb-2">Brand New Look</h3>
+            <p class="blog-item-desc text-secondary mb-3">
+              Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit.
+            </p>
+            <a href="#blog-2" class="blog-item-link fw-bold text-dark text-decoration-none">
+              Read more<span class="arrow">&mdash;&gt;</span>
+            </a>
+          </article>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <article class="blog-item-card">
+            <div class="blog-item-media position-relative mb-3">
+              <div class="blog-item-imgbox">
+                <img src="images/shoes.jpg" 
+                     alt="Teal Suede Shoe on Peach">
+              </div>
+              <div class="blog-item-date">August 25, 2021</div>
+            </div>
+            <h3 class="blog-item-title fw-bold text-dark mb-2">Healthy Lifestyle</h3>
+            <p class="blog-item-desc text-secondary mb-3">
+              Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit.
+            </p>
+            <a href="#blog-3" class="blog-item-link fw-bold text-dark text-decoration-none">
+              Read more<span class="arrow">&mdash;&gt;</span>
+            </a>
+          </article>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="releases-block-section my-5">
+    <div class="container-fluid p-0">
+      <div class="row g-0 align-items-center">
+        
+        <div class="col-12 col-lg-6 releases-photo-col d-flex align-items-center justify-content-center">
+          <div class="releases-card shadow">
+            <img src="images/white-nike.jpg" 
+                 alt="White Nike Running Shoe on Asphalt" 
+                 loading="eager">
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 releases-content-col d-flex flex-column justify-content-center">
+          <span class="releases-tag-num fw-bold text-white mb-2">02.</span>
+          <h2 class="releases-main-title fw-bold text-white mb-3">New releases</h2>
+          <p class="releases-paragraph text-white opacity-90 mb-4">
+            <strong class="fw-bold text-white">Running</strong> Energistically create cross-media niche markets rather than standards compliant content.
+          </p>
+          <a href="#releases" class="releases-btn-link text-white fw-bold text-decoration-none">
+            Read more<span class="arrow">&mdash;&gt;</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="stats-shoes-section py-5">
+    <div class="container py-lg-4">
+      <div class="row g-5 align-items-center">
+        
+        <div class="col-12 col-lg-6 stats-shoes-left">
+          <h2 class="stats-shoes-title fw-bold text-dark mb-4">Our brand new shoes</h2>
+          
+          <div class="stats-bar-item mb-4">
+            <div class="stats-bar-label fw-medium text-dark mb-1">Development</div>
+            <div class="stats-bar-percent fw-bold text-dark mb-2">95%</div>
+            <div class="stats-bar-track">
+              <div class="stats-bar-fill" style="width: 95%;"></div>
+            </div>
+          </div>
+
+          <div class="stats-bar-item mb-4">
+            <div class="stats-bar-label fw-medium text-dark mb-1">Engineering</div>
+            <div class="stats-bar-percent fw-bold text-dark mb-2">90%</div>
+            <div class="stats-bar-track">
+              <div class="stats-bar-fill" style="width: 90%;"></div>
+            </div>
+          </div>
+
+          <div class="stats-bar-item">
+            <div class="stats-bar-label fw-medium text-dark mb-1">Design</div>
+            <div class="stats-bar-percent fw-bold text-dark mb-2">85%</div>
+            <div class="stats-bar-track">
+              <div class="stats-bar-fill" style="width: 85%;"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-lg-6 d-flex justify-content-center">
+          <div class="stats-shoes-photo-box">
+            <img src="images/pink-brogues.jpg" 
+                 alt="Elegant Pink Brogues on Marble Table" 
+                 loading="eager">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="presentation-cta-section py-5">
+    <div class="container py-lg-5">
+      
+      <div class="presentation-badge d-inline-flex align-items-center gap-3 mb-4">
+        <div class="presentation-badge-circle">
+          <svg viewBox="0 0 24 24">
+            <path d="M21 2H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h7v2H8v2h8v-2h-2v-2h7c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-1 14H4V4h16v12zm-9.3 1.25l-2.65-2.65 1.4-1.4 1.25 1.25 3.9-3.9 1.4 1.4-5.3 5.3z"/>
+          </svg>
+        </div>
+        <span class="presentation-badge-text fw-bold text-white text-lowercase">product presentation</span>
+      </div>
+
+      <h2 class="presentation-main-heading fw-bold text-white mb-3">
+        The best and easiest way to<br>introduce your product
+      </h2>
+
+      <p class="presentation-main-desc text-light opacity-75 mb-4">
+        Collaboratively conceptualize orthogonal core competencies through effective solutions.
+      </p>
+
+      <button class="presentation-view-btn text-dark fw-bold border-0" type="button">
+        View More
+      </button>
+
+    </div>
+  </section>
+
+  <footer class="site-main-footer py-4 text-center">
+    <p class="footer-copyright text-white opacity-75 m-0">
+      Copyright 2025 Mobirise. All Rights Reserved
+    </p>
+  </footer>
+
+</body>
+</html>
